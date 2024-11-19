@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@cswp-individueel/shared/api": ["libs/shared/api/src/index.ts"],
+      "@pixel_paws/backend/user": ["libs/backend/user/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
