@@ -6,5 +6,6 @@ import { AboutPageComponent } from './components/about/about.component';
 export const appRoutes: Route[] = [
     { path: '', redirectTo: '/user-list', pathMatch: 'full' },
     {path: 'user-list', component: UserListComponent},
-    {path: 'about', component: AboutPageComponent}
+    {path: 'about', component: AboutPageComponent},
+    {path: 'user-list/:id', component: UserDetailsComponent}
 ];
