@@ -1,0 +1,10 @@
+{
+  "name": "pixel_paws-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/pixel_paws-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["pixel_paws"],
+  "// targets": "to see all targets run: nx show project pixel_paws-e2e --web",
+  "targets": {}
+}
