@@ -14,10 +14,10 @@ export class HeaderComponent {
 
   ngOnInit() {
     this.items = [
-      {
-        label: 'Home',
-        routerLink: '/',
-      },
+      // {
+      //   label: 'Home',
+      //   routerLink: '/',
+      // },
       {
         label: 'Users',
         routerLink: '/user-list',
