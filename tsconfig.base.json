@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@cswp-individueel/features": ["libs/frontend/features/src/index.ts"],
       "@cswp-individueel/shared/api": ["libs/shared/api/src/index.ts"],
       "@pixel_paws/backend/user": ["libs/backend/user/src/index.ts"]
     }
