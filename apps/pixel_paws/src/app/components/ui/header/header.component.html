@@ -1,1 +1,22 @@
-<p-menubar [model]="items"></p-menubar>
+<p-menubar [model]="items">
+    <p-button>test</p-button>
+</p-menubar>
+
+<div class="navigation bar">
+    <div class="navbar">
+        <div class="navbar-left">
+          <h1 class="navbar-title">Iets</h1>
+          <div class="navbar-buttons">
+            @for (item of items; track item) {
+                <p-button>
+                    {{item.label}}
+                </p-button>
+            }
+          </div>
+        </div>
+        <div class="navbar-right">
+          <div class="avatar" title="TechnoProfiles">T</div>
+        </div>
+      </div>
+
+</div>
