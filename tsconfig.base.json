@@ -16,8 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@cswp-individueel/common": ["libs/frontend/common/src/index.ts"],
+      "@cswp-individueel/dto": ["libs/backend/dto/src/index.ts"],
       "@cswp-individueel/features": ["libs/frontend/features/src/index.ts"],
       "@cswp-individueel/shared/api": ["libs/shared/api/src/index.ts"],
+      "@cswp-individueel/user": ["libs/backend/user/src/index.ts"],
       "@pixel_paws/backend/user": ["libs/backend/user/src/index.ts"]
     }
   },
